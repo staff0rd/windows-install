@@ -25,3 +25,4 @@ choco install docker -y
 choco install sql-server-management-studio -y
 
 npm install -g @angular/cli
+npm install -g --production windows-build-tools
