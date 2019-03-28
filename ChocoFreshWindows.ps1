@@ -22,5 +22,6 @@ choco install slack -y
 choco install visualstudio2017professional -y
 choco install azure-cli -y
 choco install docker -y
+choco install sql-server-management-studio -y
 
 npm install -g @angular/cli
