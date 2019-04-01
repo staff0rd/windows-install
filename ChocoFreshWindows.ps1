@@ -11,6 +11,7 @@ choco install firefox -y
 ## choco install 7zip -y
 choco install cmder -y
 choco install executor -y
+choco install whois -y
 
 ## Install Developer Tools
 choco install git -y
