@@ -17,8 +17,10 @@ choco install git -y
 choco install nodejs -y
 choco install visualstudiocode -y
 choco install dotnetcore-sdk -y
+choco install dotnetcore -y
 choco install microsoft-teams -y
 choco install slack -y
 choco install visualstudio2017professional -y
 choco install azure-cli -y
 choco install docker -y
+choco install checksum -y
