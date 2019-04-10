@@ -24,6 +24,7 @@ choco install microsoft-teams -y
 choco install slack -y
 choco install visualstudio2017professional -y
 choco install azure-cli -y
+choco install azurepowershell -y
 choco install checksum -y
 choco install docker-desktop -y
 choco install docker-cli -y
