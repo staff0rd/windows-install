@@ -28,7 +28,8 @@ choco install checksum -y
 choco install docker-desktop -y
 choco install docker-cli -y
 choco install docker-compose -y
-choco install sql-server-management-studio -y
+choco install azure-data-studio -y
+# choco install sql-server-management-studio -y
 
 npm install -g @angular/cli
 npm install -g --production windows-build-tools
