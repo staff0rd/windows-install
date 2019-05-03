@@ -17,6 +17,7 @@ choco install lockhunter -y
 
 ## Install Developer Tools
 choco install git -y
+choco install postman -y
 choco install nodejs -y
 choco install visualstudiocode -y
 choco install dotnetcore-sdk -y
