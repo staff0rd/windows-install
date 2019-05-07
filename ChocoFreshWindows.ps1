@@ -31,9 +31,15 @@ choco install checksum -y
 choco install docker-desktop -y
 choco install docker-cli -y
 choco install docker-compose -y
-#choco install azure-data-studio -y
+#choco install azure-data-studio -y # this doesn't use SQLCMD atm
 choco install sql-server-management-studio -y
 choco install beyondcompare -y
 
+# configure git for beyond compare
+git config --global diff.tool bc3
+git config --global merge.tool bc3
+git config --global mergetool.bc3.trustExitCode true
+
+# won't work because npm is not in path
 npm install -g @angular/cli
 npm install -g --production windows-build-tools
