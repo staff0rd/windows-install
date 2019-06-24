@@ -14,6 +14,7 @@ choco install executor -y
 choco install whois -y
 choco install sendtokindle -y
 choco install lockhunter -y
+choco install imagemagick -y
 
 ## Install Developer Tools
 choco install git -y
