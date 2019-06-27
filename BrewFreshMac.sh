@@ -6,3 +6,4 @@ brew install azure-cli
 brew cask install azure-data-studio
 brew cask install slack
 brew cask install disk-inventory-x
+brew cask install spectacle
