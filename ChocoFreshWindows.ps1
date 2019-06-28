@@ -18,6 +18,7 @@ choco install imagemagick -y
 
 ## Install Developer Tools
 choco install git -y
+choco install snaketail -y
 choco install postman -y
 choco install nodejs -y
 choco install visualstudiocode -y
