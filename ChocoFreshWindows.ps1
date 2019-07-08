@@ -14,9 +14,13 @@ cinst cmder -y
 cinst executor -y
 cinst whois -y
 cinst sendtokindle -y
+choco install lockhunter -y
+choco install imagemagick -y
 
 ## Install Developer Tools
 cinst git -y
+choco install snaketail -y
+choco install postman -y
 cinst nodejs -y
 cinst visualstudiocode -y
 cinst dotnetcore-sdk -y
@@ -30,8 +34,16 @@ cinst checksum -y
 cinst docker-desktop -y
 cinst docker-cli -y
 cinst docker-compose -y
+#choco install azure-data-studio -y # this doesn't use SQLCMD atm
 cinst sql-server-management-studio -y
+choco install beyondcompare -y
+
+# configure git for beyond compare
+git config --global difftool.bc3.path "c:/Program Files/Beyond Compare 4/bcomp.exe"
+git config --global mergetool.bc3.path "c:/Program Files/Beyond Compare 4/bcomp.exe"
+git config --global mergetool.bc3.trustExitCode true
 
 ## restart shell before running...
+# won't work because npm is not in path
 npm install -g @angular/cli
 npm install -g --production windows-build-tools
