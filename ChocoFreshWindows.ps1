@@ -37,6 +37,7 @@ cinst docker-compose -y
 #choco install azure-data-studio -y # this doesn't use SQLCMD atm
 cinst sql-server-management-studio -y
 cinst beyondcompare -y
+cinst yarn -y
 
 # configure git for beyond compare
 git config --global difftool.bc3.path "c:/Program Files/Beyond Compare 4/bcomp.exe"
