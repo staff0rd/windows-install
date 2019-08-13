@@ -4,43 +4,46 @@
 iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 
 ## Install Desktop tools
-choco install powershell -y
-choco install googlechrome -y
-choco install dashlane -y
-choco install firefox -y
-## choco install 7zip -y
-choco install cmder -y
-choco install executor -y
-choco install whois -y
-choco install sendtokindle -y
-choco install lockhunter -y
-choco install imagemagick -y
+cinst powershell -y
+cinst googlechrome -y
+cinst dashlane -y
+cinst firefox -y
+## cinst 7zip -y
+cinst vlc -y
+cinst cmder -y
+cinst executor -y
+cinst whois -y
+cinst sendtokindle -y
+cinst lockhunter -y
+cinst imagemagick -y
 
 ## Install Developer Tools
-choco install git -y
-choco install postman -y
-choco install nvm -y
-choco install visualstudiocode -y
-choco install dotnetcore-sdk -y
-choco install dotnetcore -y
-choco install microsoft-teams -y
-choco install slack -y
-choco install visualstudio2017professional -y
-choco install azure-cli -y
-choco install azurepowershell -y
-choco install checksum -y
-choco install docker-desktop -y
-choco install docker-cli -y
-choco install docker-compose -y
+cinst git -y
+cinst snaketail -y
+cinst postman -y
+cinst nvm -y
+cinst visualstudiocode -y
+cinst dotnetcore-sdk -y
+cinst dotnetcore -y
+cinst microsoft-teams -y
+cinst slack -y
+cinst visualstudio2017professional -y
+cinst azure-cli -y
+cinst azurepowershell -y
+cinst checksum -y
+cinst docker-desktop -y
+cinst docker-cli -y
+cinst docker-compose -y
 #choco install azure-data-studio -y # this doesn't use SQLCMD atm
-choco install sql-server-management-studio -y
-choco install beyondcompare -y
+cinst sql-server-management-studio -y
+cinst beyondcompare -y
 
 # configure git for beyond compare
 git config --global difftool.bc3.path "c:/Program Files/Beyond Compare 4/bcomp.exe"
 git config --global mergetool.bc3.path "c:/Program Files/Beyond Compare 4/bcomp.exe"
 git config --global mergetool.bc3.trustExitCode true
 
+## restart shell before running...
 # won't work because npm is not in path
 npm install -g @angular/cli
 npm install -g --production windows-build-tools
