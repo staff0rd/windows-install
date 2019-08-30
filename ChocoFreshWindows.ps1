@@ -38,6 +38,7 @@ cinst docker-compose -y
 cinst sql-server-management-studio -y
 cinst beyondcompare -y
 cinst yarn -y
+cinst dotpeek -y
 
 # configure git for beyond compare
 git config --global difftool.bc3.path "c:/Program Files/Beyond Compare 4/bcomp.exe"
