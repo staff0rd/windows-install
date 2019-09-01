@@ -11,3 +11,4 @@ brew tap azure/functions
 brew install azure-functions-core-tools
 brew install node
 brew cask install dotnet-sdk
+brew install imagemagick
