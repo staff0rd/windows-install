@@ -12,3 +12,5 @@ brew install azure-functions-core-tools
 brew install node
 brew cask install dotnet-sdk
 brew install imagemagick
+brew cask install xquartz
+brew cask install inkscape
