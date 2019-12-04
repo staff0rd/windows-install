@@ -27,7 +27,7 @@ cinst dotnetcore-sdk -y
 cinst dotnetcore -y
 cinst microsoft-teams -y
 cinst slack -y
-cinst visualstudio2017professional -y
+choco install visualstudio2019professional -y
 cinst azure-cli -y
 cinst azurepowershell -y
 cinst checksum -y
