@@ -27,7 +27,7 @@ cinst dotnetcore-sdk -y
 cinst dotnetcore -y
 cinst microsoft-teams -y
 cinst slack -y
-choco install visualstudio2019professional -y
+cinst visualstudio2019professional -y
 cinst azure-cli -y
 cinst azurepowershell -y
 cinst checksum -y
@@ -37,6 +37,7 @@ cinst docker-compose -y
 #choco install azure-data-studio -y # this doesn't use SQLCMD atm
 cinst sql-server-management-studio -y
 cinst beyondcompare -y
+cinst snagit --version=2019.1.3 -y
 cinst yarn -y
 cinst dotpeek -y
 cinst winscp -y
