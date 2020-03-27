@@ -16,6 +16,7 @@ cinst whois -y
 cinst sendtokindle -y
 cinst lockhunter -y
 cinst imagemagick -y
+cinst gimp -y
 
 ## Install Developer Tools
 cinst git -y
