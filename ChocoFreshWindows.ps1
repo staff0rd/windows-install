@@ -17,6 +17,7 @@ cinst sendtokindle -y
 cinst lockhunter -y
 cinst imagemagick -y
 cinst gimp -y
+cinst snagit --version=2019.1.3 -y -params='"/licensekey:ABC-DEF-ETC /licensename:""Stafford Williams"" /nodesktopshortcut"'
 
 ## Install Developer Tools
 cinst git -y
@@ -38,7 +39,6 @@ cinst docker-compose -y
 #choco install azure-data-studio -y # this doesn't use SQLCMD atm
 cinst sql-server-management-studio -y
 cinst beyondcompare -y
-cinst snagit --version=2019.1.3 -y
 cinst yarn -y
 cinst dotpeek -y
 cinst winscp -y
