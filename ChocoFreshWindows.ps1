@@ -6,7 +6,6 @@ iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 ## Install Desktop tools
 cinst powershell -y
 cinst googlechrome -y
-cinst dashlane -y
 cinst firefox -y
 ## cinst 7zip -y
 cinst vlc -y
@@ -21,10 +20,10 @@ cinst snagit --version=2019.1.3 -y -params='"/licensekey:ABC-DEF-ETC /licensenam
 
 ## Install Developer Tools
 cinst git -y
-cinst snaketail -y
-cinst postman -y
 cinst nvm -y
 cinst visualstudiocode -y
+cinst snaketail -y
+cinst postman -y
 cinst dotnetcore-sdk -y
 cinst dotnetcore -y
 cinst microsoft-teams -y
